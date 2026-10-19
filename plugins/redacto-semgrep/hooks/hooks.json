@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/session.sh\"",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/session.sh\"",
             "timeout": 10
           }
         ]
@@ -18,7 +18,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/scan.sh\"",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/scan.sh\"",
             "timeout": 90
           }
         ]

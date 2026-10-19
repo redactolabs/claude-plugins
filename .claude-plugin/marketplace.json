@@ -1,0 +1,13 @@
+{
+  "name": "redacto",
+  "owner": {
+    "name": "Redacto Security"
+  },
+  "plugins": [
+    {
+      "name": "redacto-semgrep",
+      "source": "./plugins/redacto-semgrep",
+      "description": "Scans every file Claude Code writes with open-source Semgrep (no account, no telemetry) and feeds findings back for fixing."
+    }
+  ]
+}

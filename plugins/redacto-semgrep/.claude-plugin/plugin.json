@@ -1,0 +1,8 @@
+{
+  "name": "redacto-semgrep",
+  "description": "Open-source Semgrep scan of each file Claude Code writes or edits. No Semgrep account, no telemetry.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Redacto Security"
+  }
+}
